@@ -1,0 +1,116 @@
+@font-face{
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato-Bold";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato-Black";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{
+	font-family: "Lato-Regular", sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.article{
+	max-width: 810px;
+	margin: 0 auto;
+}
+.header{
+	background-color: #e5e5e5;
+}
+.header__description{
+	font-family: "Lato-Bold", sans-serif;
+	color: #333;
+	text-align: center;
+	padding: 50px 0;
+	margin-bottom: 100px;
+	border-bottom: 4px dotted #111;
+	box-shadow: 1px 2px 10px #333;
+}
+.article>h1{
+	font-family: "Lato-Black", sans-serif;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	margin-bottom: 26px;
+}
+.article .image {
+	max-width: 100%;
+	margin-bottom: 60px;
+}
+.first-paragraph,
+blockquote {
+	font-family: "Lato-Bold", sans-serif;
+	font-size: 20px;
+	line-height: 150%;
+	font-weight: 700;
+}
+.first-paragraph{
+	margin-bottom: 24px;
+}
+.first-paragraph+p{
+	margin-bottom: 38px;
+}
+.main-text+p{
+	margin-bottom: 48px;
+}
+blockquote{
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+blockquote+.main-text{
+	margin-bottom: 24px;
+}
+.list>li{
+	margin-bottom: 4px;
+	list-style-type: square;
+	margin-left: 30px;
+}
+.list{
+	margin-bottom: 24px;
+}
+.list+p{
+	margin-bottom: 50px;
+}
+.shape{
+	max-height: 300px;
+	background-color: orange;
+	font-size: 16px;
+	overflow: hidden;
+	padding: 22px;
+	border-radius: 20px;
+	margin-bottom: 40px;
+}
+.img1{
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.first-image{
+	margin-right: 20px;
+}
+.footer{
+	background-color: #e5e5e5;
+}
+.footer__description{
+	font-family: "Lato-Bold", sans-serif;
+	color: #333;
+	text-align: center;
+	padding: 50px 0;
+	border-top: 4px dotted #111;
+	box-shadow: -1px -2px 10px #333;
+}
